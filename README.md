@@ -1,1 +1,1 @@
-# OKG-ConvGRU
+# OKG-ConvGRU:一种知识和数据联合驱动的海洋要素遥感预测框架
