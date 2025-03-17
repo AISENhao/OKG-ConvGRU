@@ -1,0 +1,8 @@
+The data folder stores the long time-series remote sensing image data used in the experiment, which has been preprocessed. The study area is the eastern China Sea, and we selected the chlorophyll a concentration Chl-a as the target element for model prediction, and its influencing factors include sea surface temperature SST, particulate inorganic carbon PIC, particulate organic carbon POC, photosynthetically active radiation PAR, and normalized fluorescence line brightness NFLH.
+
+The cross_convgru folder contains the source code of the developed model.
+
+The OKG folder stores the source code of our constructed remote sensing spatio-temporal knowledge graph (OKG) of ocean elements as well as the semantic representation process, which contains the knowledge graph visualization, storage to Neo4j, and embedded models (TransE,TransH) training to evaluate the visualization process.
+
+Experimental environment：
+The experiments are conducted on a workstation that is equipped with an Intel Core i7-14650HX processor and operates on the Windows 11 operating system. The model is implemented based on the PyTorch framework and utilizes an NVIDIA RTX 4070 graphics card (32GB video memory) for the purpose of training acceleration, with CUDA version 12.5.Code development and debugging are conducted in the PyCharm integrated development environment.
