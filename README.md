@@ -1,1 +1,1 @@
-# OKG-ConvGRU:一种知识和数据联合驱动的海洋要素遥感预测框架
+OKG-ConvGRU: a novel remote sensing prediction framework for ocean elements jointly driven by knowledge and data
